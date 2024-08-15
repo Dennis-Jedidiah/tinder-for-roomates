@@ -1,19 +1,19 @@
+import Card from './components/Card';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p className='text-5xl'>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="container">
+        <div className="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+          temporibus assumenda, architecto dolores ea mollitia, natus molestias
+          numquam fugit quae quam iste porro sit a. Odio maxime laboriosam
+          deleniti ut.
+        </div>
+        <div className="d-flex justify-content-center">
+          <Card classess={'my-5'}></Card>
+        </div>
+      </div>
     </div>
   );
 }
